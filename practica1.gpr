@@ -1,0 +1,19 @@
+with Ada.Text_IO; use Ada.Text_IO;
+with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
+
+procedure Main is
+ numero,num:Integer;
+begin
+
+   numero:=22;
+   num:= 4+numero;
+
+   if (numero /= 25) then
+      put ("Error");
+   else
+      put("OK");
+      Put_Line("");
+   end if;
+
+   Put (num);
+end Main;
